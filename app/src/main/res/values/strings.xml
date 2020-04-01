@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FootballTracker</string>
+    <string name="on_target">On Target</string>
+    <string name="reset">RESET</string>
+</resources>
