@@ -230,20 +230,24 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_goal_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_add_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="addGoal"
             app:layout_constraintTop_toBottomOf="@id/first_team_controls_goal_image"
             app:layout_constraintRight_toRightOf="parent"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_goal_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_remove_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="removeGoal"
@@ -260,20 +264,24 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintRight_toLeftOf="@id/first_team_controls_goal_image"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_target_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_add_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="addTarget"
             app:layout_constraintTop_toBottomOf="@id/first_team_controls_target_image"
             app:layout_constraintRight_toLeftOf="@id/first_team_controls_goal_add"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_target_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_remove_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="removeTarget"
@@ -290,20 +298,24 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintRight_toLeftOf="@id/first_team_controls_target_image"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_offsides_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:onClick="addOffside"
             android:src="@drawable/ic_add_circle_outline"
             android:layout_margin = "18dp"
             app:layout_constraintTop_toBottomOf="@id/first_team_controls_offsides_image"
             app:layout_constraintRight_toLeftOf="@id/first_team_controls_target_add"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/first_team_controls_offsides_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_remove_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="removeOffside"
@@ -354,20 +366,24 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_goal_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_add_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="addGoal"
             app:layout_constraintTop_toBottomOf="@id/second_team_controls_goal_image"
             app:layout_constraintRight_toRightOf="parent"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_goal_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_remove_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="removeGoal"
@@ -384,21 +400,25 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintRight_toLeftOf="@id/second_team_controls_goal_image"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_target_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_add_circle_outline"
+            android:background="@android:color/white"
             android:layout_margin = "18dp"
             android:onClick="addTarget"
             app:layout_constraintTop_toBottomOf="@id/second_team_controls_target_image"
             app:layout_constraintRight_toLeftOf="@id/second_team_controls_goal_add"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_target_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_remove_circle_outline"
+            android:background="@android:color/white"
             android:layout_margin = "18dp"
             android:onClick="removeTarget"
             app:layout_constraintTop_toBottomOf="@id/second_team_controls_target_add"
@@ -414,21 +434,25 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintRight_toLeftOf="@id/second_team_controls_target_image"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_offsides_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:src="@drawable/ic_add_circle_outline"
             android:layout_margin = "18dp"
             android:onClick="addOffside"
             app:layout_constraintTop_toBottomOf="@id/second_team_controls_offsides_image"
             app:layout_constraintRight_toLeftOf="@id/second_team_controls_target_add"
             />
-        <ImageView
+
+        <ImageButton
             android:id="@+id/second_team_controls_offsides_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_remove_circle_outline"
+            android:background="@android:color/white"
             android:layout_margin = "18dp"
             android:onClick="removeOffside"
             app:layout_constraintTop_toBottomOf="@id/second_team_controls_offsides_add"
